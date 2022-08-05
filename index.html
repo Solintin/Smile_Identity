@@ -5,15 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicon.svg"
-    />
+    <link rel="icon" type="image/png" href="/assets/favicon.svg" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
     <title>Smile Identity | The State of KYC in Africa</title>
   </head>
   <body>
+    <!-- HEADER Mobile-->
+    <header>
+      <div class="container header-mobile">
+        <div><img src="./assets/logo.svg" /></div>
+
+        <div>
+          <button id="toggleButton" class="btn-download">
+            <div class="fas fa-bars"></div>
+          </button>
+        </div>
+
+        <div class="header_content-mobile">
+          <div class="nav_menu-mobile">
+            <p>Solutions</p>
+            <img src="./assets/dropdown.svg" alt="" />
+          </div>
+          <div class="nav_menu-mobile">
+            <p>Resources</p>
+            <img src="./assets/dropdown.svg" alt="" />
+          </div>
+          <div class="nav_menu-mobile">
+            <p>Company</p>
+            <img src="./assets/dropdown.svg" alt="" />
+          </div>
+          <div class="nav_menu-mobile">
+            <p>Documentation</p>
+          </div>
+          <div>
+            <button class="btn-download">Download Report</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER Mobile-->
     <!-- HEADER -->
     <header>
       <div class="container header">
@@ -96,6 +131,7 @@
                   <option>Select Role</option>
                 </select>
               </form>
+
               <button class="btn-download_report">Download now</button>
             </div>
           </div>
@@ -252,5 +288,6 @@
       </div>
     </section>
     <!-- FOOTER -->
+    <script src="script.js"></script>
   </body>
 </html>
