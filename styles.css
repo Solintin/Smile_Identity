@@ -14,7 +14,7 @@ header {
 }
 .container {
   max-width: 1440px;
-  padding: 20px 100px;
+  padding: 20px 60px;
   margin: 0 auto;
 }
 .header {
@@ -223,7 +223,7 @@ select {
 }
 .tabs p {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
